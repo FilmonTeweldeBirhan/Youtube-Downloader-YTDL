@@ -1,0 +1,37 @@
+{
+  "name": "youtube-downloader-ytdl",
+  "version": "1.0.0",
+  "description": "This is the youtube-downloader it's pretty much self explanatory, it downloads youtube videos based upon the given URL input from youtube.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilmonTeweldeBirhan/Youtube-Downloader-YTDL.git"
+  },
+  "keywords": [
+    "download",
+    "youtube",
+    "ytdl",
+    "node",
+    "npm",
+    "express"
+  ],
+  "author": "Filmon Teweldebirhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FilmonTeweldeBirhan/Youtube-Downloader-YTDL/issues"
+  },
+  "homepage": "https://github.com/FilmonTeweldeBirhan/Youtube-Downloader-YTDL#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "ytdl-core": "^4.11.5"
+  }
+}

@@ -1,0 +1,5 @@
+/* make sure to use lf when save */    
+root = true
+
+[*]
+end_of_line = lf
